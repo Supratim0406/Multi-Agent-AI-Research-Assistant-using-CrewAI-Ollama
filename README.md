@@ -4,5 +4,6 @@
 ![alt text](image.png)
 
 
+## 🎥 Demo
 
-https://github.com/Supratim0406/Multi-Agent-AI-Research-Assistant-using-Crew-AI-Ollama/blob/main/Demo.mp4
+[▶️ Watch Demo Video](https://github.com/Supratim0406/Multi-Agent-AI-Research-Assistant-using-Crew-AI-Ollama/blob/main/Demo.mp4)
