@@ -37,6 +37,9 @@ Markdown files + Streamlit UI
 
 ---
 
+![alt text](image.png)
+
+
 ## 🧩 Tech Stack
 
 - Python
@@ -50,25 +53,25 @@ Markdown files + Streamlit UI
 
 ## 📁 Project Structure
 
+```
 ResearchAssistant/
 │
 ├── agents/
-│   ├── research_specialist.py
-│   ├── data_analyst.py
-│   └── content_writer.py
+│ ├── research_specialist.py
+│ ├── data_analyst.py
+│ └── content_writer.py
 │
 ├── tasks/
-│   ├── research_task.py
-│   ├── analysis_task.py
-│   └── writing_task.py
+│ ├── research_task.py
+│ ├── analysis_task.py
+│ └── writing_task.py
 │
 ├── crew.py
 ├── app.py
 ├── .env
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## ⚙️ Installation
 
@@ -179,9 +182,6 @@ MIT
 ---
 
 Built with ❤️ using CrewAI + Streamlit
-
-
-![alt text](image.png)
 
 
 ## 🎥 Demo
