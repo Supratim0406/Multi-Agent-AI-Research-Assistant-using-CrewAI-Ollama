@@ -24,7 +24,7 @@ All powered by specialized AI agents collaborating together.
 ---
 
 ## 🧠 Architecture
-
+```
 User Topic  
    ↓  
 Research Agent → collects facts  
@@ -35,7 +35,7 @@ Writer Agent → generates report
    ↓  
 Markdown files + Streamlit UI  
 
----
+```
 
 ![alt text](image.png)
 
@@ -76,25 +76,30 @@ ResearchAssistant/
 ## ⚙️ Installation
 
 ### 1️⃣ Clone repo
+```bash
 
 git clone <your-repo-url>
 cd ResearchAssistant
 
+```
+
 ### 2️⃣ Create virtual environment
+```bash
 
 python -m venv .venv
 .venv\Scripts\activate   # Windows
+```
 
 ### 3️⃣ Install dependencies
+```bash
 
 pip install -r requirements.txt
-
----
+```
 
 ## 🤖 LLM Setup
 
 ### 🟢 Local (Recommended – FREE with Ollama)
-
+```
 Install Ollama:
 https://ollama.com
 
@@ -109,45 +114,44 @@ CREWAI_TELEMETRY_DISABLED=true
 
 Start server:
 ollama serve
-
----
+```
 
 ### 🟡 Groq
-
+```
 .env:
 LLM_PROVIDER=groq
 GROQ_API_KEY=your_key
 SERPER_API_KEY=your_key
-
----
+```
 
 ### 🔵 OpenAI
-
+```
 .env:
 LLM_PROVIDER=openai
 OPENAI_API_KEY=your_key
 SERPER_API_KEY=your_key
-
----
+```
 
 ## ▶️ Run App
-
+```
 streamlit run app.py
 
 Open:
 http://localhost:8501
 
----
+```
 
 ## 📄 Output Files
 
+```
 - research_findings.md
 - analysis_report.md
 - final_report.md
 
----
+```
 
 ## 🧠 Agents
+
 
 🔍 Research Specialist – gathers info  
 📊 Data Analyst – extracts insights  
