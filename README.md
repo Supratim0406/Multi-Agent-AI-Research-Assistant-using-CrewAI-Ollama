@@ -1,10 +1,4 @@
-python -m pip install uv
-uv pip install -r requirements.txt
-uv init
-uv venv
-.venv\Scripts\activate
-uv pip install litellm
-uv run app.py
+## Multi-Agent-AI-Research-Assistant-using-Crew-AI-Ollama
 
 
 ![alt text](image.png)
